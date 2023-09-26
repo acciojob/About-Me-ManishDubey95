@@ -1,1 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+}
+#main{
+    display: flex;
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#first{
+    margin-right: 30px;
+    width: 50%;
+}
+#second{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 50%;
+}
+.intro{
+    display: flex;
+    height: 40%;
+    margin-bottom: 20px;
+}
+
+.img{
+    width: 50%;
+    height: 50%;
+}
+.photo{
+    width: 80%;
+}
+h4, p{
+    display: inline-block;
+}
+.skill_1{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(141, 198, 255);
+}
+.skill_1ch{
+    width: 95%;
+    background-color: rgb(6, 130, 255);
+    height: 100%;
+}
+
+.skill_2{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(141, 198, 255);
+}
+.skill_2ch{
+    width: 90%;
+    background-color: rgb(6, 130, 255);
+    height: 100%;
+}
+
+.skill_3{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(141, 198, 255);
+}
+.skill_3ch{
+    width: 99%;
+    background-color: rgb(6, 130, 255);
+    height: 100%;
+}
+
+.skill_4{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(141, 198, 255);
+}
+.skill_4ch{
+    width: 93%;
+    background-color: rgb(6, 130, 255);
+    height: 100%;
+}
+
+#second>h2{
+    display: block;
+}
+
+#second>p{
+    margin-bottom: 10px;
+}
+
+.skills>h2, .skills>p{
+    margin-bottom: 10px;
+}
+.line{
+    width: 30%;
+    background-color: blue;
+    height: 2px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.npe>div{
+    margin-bottom:20px;
+}
 

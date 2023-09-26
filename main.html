@@ -1,95 +1,134 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Profile</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: space-between;
-    }
-    .left-half {
-      width: 50%;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-    .profile-picture {
-      border-radius: 50%;
-      width: 200px;
-      height: 200px;
-    }
-    .right-half {
-      width: 50%;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-    .skills-label {
-      display: flex;
-      align-items: center;
-    }
-    .skill-icon {
-      width: 20px;
-      margin-right: 10px;
-    }
-    .skill-range {
-      width: 100%;
-    }
-  </style>
-</head>
-<body>
-  <div class="left-half">
-    <img src="https://imgv3.fotor.com/images/gallery/Realistic-Male-Profile-Picture.jpg"
-         class="profile-picture"
-         alt="Profile Picture"
-    >
-    <h1>Name: Manish Dubey</h1>
-    <p>Profile: Software Developer</p>
-    <p>Email: msdubey95@gmail.com</p>
-    <h2>Skills</h2>
-    <label>
-      React <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
-      width="20px">
-       CSS <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png"
-      width="20px">
-      JAVA SCRIPT <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png"
-      width="20px">
-    </label>
-    <input type="range" style="width: 250px;"><br>
-<br>
-    <label>
-      C/C++ <img src="https://d2ohlsp9gwqc7h.cloudfront.net/images/logos/logo-page/cbuilder-logo-1024.png"
-      width="20px">
-      PYTHON <img src="https://img.freepik.com/free-icon/snakes_318-368381.jpg"
-      width="20px">
-      BATCH <img src="https://www.section.io/engineering-education/dive-into-batch-scripting-language/hero.png"
-      width="20px">
-    </label>
-    <input type="range" style="width: 250px;"><br>
-<br>
-    <label>
-      NODEJS <img src="https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png"
-      width="20px">
-      MONGODB <img src="https://img.freepik.com/free-icon/snakes_318-368381.jpg"
-      width="20px">
-    </label>
-    <input type="range" style="width: 250px;"><br>
-  </div>
-  <div class="right-half">
-    <h2><u>About Me</u></h2>
-    <p>
-      Hi there! I'm Manish Dubey, a passionate software developer with a knack for turning ideas into elegant and efficient solutions. My journey into the world of programming began with my fascination for technology and the desire to create innovative solutions to real-world challenges.
-    </p>
-    <p>
-      With a solid foundation in languages like JavaScript and Python, I enjoy crafting dynamic and interactive web applications using modern frameworks like React. I'm a firm believer in continuous learning, which drives me to stay updated with the latest trends in software development and always be on the lookout for opportunities to expand my skill set.
-    </p>
-    <p>
-      Alongside my technical skills, I also value effective communication and teamwork. Collaborating with diverse teams has not only broadened my perspective but has also allowed me to contribute to projects that have a meaningful impact. I find great satisfaction in working with colleagues who share the same passion and dedication for crafting exceptional software solutions.
-    </p>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rough</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="main">
+        
+      <div id="first">
+        <div class="intro">
+          <div class="img">
+            <img
+              class="photo"
+              src="https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZmlsZSUyMHBob3RvfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60"
+              alt="profile"
+            />
+          </div>
+
+          <div class="npe">
+            <div>
+              <h4>Name:</h4>
+              <p>Manish Dubey</p>
+            </div>
+
+            <div>
+              <h4>Profile:</h4>
+              <p>Software Developer</p>
+            </div>
+
+            <div>
+              <h4>Email:</h4>
+              <p>msdubey95@acciojob.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills">
+          <h2>Skills</h2>
+          
+            <p>
+              REACT
+              <i class="fa-brands fa-react fa-lg" style="color: #14b9ff"></i>
+              CSS
+              <i class="fa-brands fa-css3-alt fa-xl" style="color: #337eff"></i>
+              JAVASCRIPT
+              <i class="fa-brands fa-js fa-xl" style="color: #ffd500"></i>
+            </p>
+          <div class="skill_1">
+            <div class="skill_1ch"></div>
+          </div>
+          <br/>
+
+          <p>
+            NODEJs
+            <i class="fa-brands fa-node-js fa-lg" style="color: #03a02a"></i>
+            C++
+            <i class="fa-solid fa-c fa-xl" style="color: #e78123"></i>
+          </p>
+          <div class="skill_2">
+           <div class="skill_2ch"></div>
+          </div>
+          <br/>
+
+          <p>
+            REACT
+            <i class="fa-brands fa-react fa-lg" style="color: #14b9ff"></i> 
+            CSS
+            <i class="fa-brands fa-css3-alt fa-xl" style="color: #337eff"></i>
+            JAVASCRIPT
+            <i class="fa-brands fa-js fa-xl" style="color: #ffd500"></i>
+          </p>
+          <div class="skill_3">
+            <div class="skill_3ch"></div>
+          </div>
+          <br/>
+
+          <p>
+            REACT
+            <i class="fa-brands fa-react fa-lg" style="color: #14b9ff"></i> 
+            CSS
+            <i class="fa-brands fa-css3-alt fa-xl" style="color: #337eff"></i>
+            JAVASCRIPT
+            <i class="fa-brands fa-js fa-xl" style="color: #ffd500"></i>
+          </p>
+          <div class="skill_4">
+            <div class="skill_4ch"></div>
+          </div> 
+          <br/>
+        </div>
+      </div>
+
+      <div id="second">
+        <h2>About me</h2>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga libero
+          sed, similique dolorum assumenda expedita numquam laborum fugiat quo,
+          reiciendis omnis debitis vel dignissimos placeat, natus adipisci minus
+          architecto at. Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Ad magnam, itaque laborum magni repellendus porro id accusantium
+          dolor natus voluptatem saepe voluptatibus optio! Consequatur
+          doloremque corporis quisquam, laboriosam laborum similique.
+        </p>
+        <br />
+        <p>
+          consequuntur molestiae magnam. Et sint quam nesciunt. Minima
+          consequatur explicabo animi voluptatum blanditiis dolorem accusamus
+          doloremque derit at minus ullam. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Numquam ipsum magni ea sit nesciunt!
+          Odio quaerat saepe cum ex ab.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+          repellat expedita hic corrupti asperiores, veniam, eius ipsam,
+          voluptas deleniti quaerat magni temporibus nostrum! Saepe accusamus
+          architecto, facere ipsa repellat sunt!
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
+
 
